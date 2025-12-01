@@ -1,5 +1,6 @@
 import "./App.css";
-import Card from "./components/Card";
+import Form from "./components/Form";
+// import Card from "./components/Card";
 // import User from "./components/User";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <User name="Cedric" age={24} gender="male" />
       <User name="Cedric" age={24} gender="male" /> */}
 
-      <Card>
+      {/* <Card>
         <h1>Hello world</h1>
         <h1>Hello world</h1>
       </Card>
@@ -17,7 +18,9 @@ function App() {
       <Card>
         <h1>Hello world</h1>
         <h1>Hello world</h1>
-      </Card>
+      </Card> */}
+
+      <Form />
     </div>
   );
 }
