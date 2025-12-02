@@ -1,26 +1,26 @@
 import "./App.css";
-import Form from "./components/Form";
-// import Card from "./components/Card";
-// import User from "./components/User";
+import Dropdown from "./components/Dropdown";
 
 function App() {
+  // const users = ["Pedro", "Camila", "John", "Saul"];
+  // const isMarried = false;
+  // const isLoading = true;
+  // const data = "example@email.com";
+
   return (
-    <div className="flex items-center justify-center h-screen">
-      {/* <User name="Cedric" age={24} gender="male" />
-      <User name="Cedric" age={24} gender="male" />
-      <User name="Cedric" age={24} gender="male" /> */}
+    <div className="flex items-center justify-center h-screen flex-col">
+      {/* <ul>
+        {users.map((user, idx) => (
+          <li key={idx}>{user}</li>
+        ))}
+      </ul> */}
 
-      {/* <Card>
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
-      </Card>
+      {/* {isMarried ? <p>The user is married</p> : <p>The user is not married</p>} */}
+      {/* If statement is just double && while the if else is the ternary operator ? : */}
+      {/* 
+      {isLoading ? <p>Loading...</p> : <p>User email is: {data}</p>} */}
 
-      <Card>
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
-      </Card> */}
-
-      <Form />
+      <Dropdown />
     </div>
   );
 }
